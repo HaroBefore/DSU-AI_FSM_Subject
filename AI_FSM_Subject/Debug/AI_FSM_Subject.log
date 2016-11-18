@@ -1,0 +1,21 @@
+﻿  GameTimeManager.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+  TesterOwnedStates.cpp
+  Tester.cpp
+  MessageDispatcher.cpp
+  GameProgrammerOwnedStates.cpp
+  GameGraphicArtistOwnedStates.cpp
+  GameDevelopEmployee.cpp
+  GameDevelopCompany.cpp
+  GameDesignerOwnedStates.cpp
+  EntityManager.cpp
+  BossOwnedStates.cpp
+c:\users\haro7\desktop\ai_fsm_subject\ai_fsm_subject\ai_fsm_subject\ai_fsm_subject\bossownedstates.cpp(33): warning C4065: switch statement contains 'default' but no 'case' labels
+c:\users\haro7\desktop\ai_fsm_subject\ai_fsm_subject\ai_fsm_subject\ai_fsm_subject\bossownedstates.cpp(120): warning C4065: switch statement contains 'default' but no 'case' labels
+c:\users\haro7\desktop\ai_fsm_subject\ai_fsm_subject\ai_fsm_subject\ai_fsm_subject\bossownedstates.cpp(195): warning C4065: switch statement contains 'default' but no 'case' labels
+  BaseGameEntity.cpp
+  Generating Code...
+  AI_FSM_Subject.vcxproj -> C:\Users\haro7\Desktop\AI_FSM_Subject\AI_FSM_Subject\AI_FSM_Subject\Debug\AI_FSM_Subject.exe
+  AI_FSM_Subject.vcxproj -> C:\Users\haro7\Desktop\AI_FSM_Subject\AI_FSM_Subject\AI_FSM_Subject\Debug\AI_FSM_Subject.pdb (Partial PDB)

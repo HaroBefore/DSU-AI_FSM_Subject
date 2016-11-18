@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BaseGameEntity">
+    <Position X="16.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAQIAABAAAAAAAAAAEAAgQAAAAAAAAAAAAAUAAAEBAA=</HashCode>
+      <FileName>BaseGameEntity.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Boss">
+    <Position X="12" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABACAgAQAAQQAAAAAAAADAAABAABAAAAAAAEAA=</HashCode>
+      <FileName>GameDevelopEmployee.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pCompanyInfo" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CrudeTimer">
+    <Position X="6" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAACAAAAAAAAAAAAIAQAAgAAAAAAA=</HashCode>
+      <FileName>CrudeTimer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityManager">
+    <Position X="8.5" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Typedef Name="EntityManager::EntityMap" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EntityManager.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAgAAAAAAABQBAAAAAAAAAAAAQAAgAAAAQAA=</HashCode>
+      <FileName>EntityManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameDesigner">
+    <Position X="17.5" Y="13.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAACAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>GameDevelopEmployee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameDevelopCompany">
+    <Position X="8.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AIAIAAGgABAmAAAABhAAAMAACAAGgAAAAAEAAAAEBAQ=</HashCode>
+      <FileName>GameDevelopCompany.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameGraphicArtist">
+    <Position X="19.5" Y="13.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameDevelopEmployee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameProgrammer">
+    <Position X="21.5" Y="13.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAgCAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameDevelopEmployee.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageDispatcher">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAEAAAAEAAAAAAAAAAQQAAgAAAAAQA=</HashCode>
+      <FileName>MessageDispatcher.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State&lt;entity_type&gt;">
+    <Position X="26.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAIACAABAEAAA=</HashCode>
+      <FileName>State.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine&lt;entity_type&gt;">
+    <Position X="23" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQQAIBAgIAJBBAAAAAIAQAAAAIgIAAAAAAAgQAAAAA=</HashCode>
+      <FileName>StateMachine.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_pCurrentState" />
+      <Field Name="m_pPreviousState" />
+      <Field Name="m_pGlobalState" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StateTesterIdle">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACAAAAAACA=</HashCode>
+      <FileName>TesterOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Tester">
+    <Position X="19.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQIAABAAAgAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tester.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameDevelopEmployee">
+    <Position X="19.5" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABACAggBQAQAAACICAAADARAgEABgAAFEAAABQ=</HashCode>
+      <FileName>GameDevelopEmployee.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Mood">
+    <Position X="14.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACBAAAAAAAAIAAAADAAAAAQAAAAAAAgEgAA=</HashCode>
+      <FileName>Mood.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBossIdle">
+    <Position X="22.25" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABAAAAAAAQAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>BossOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBoss">
+    <Position X="25.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAIACAAAAEAAA=</HashCode>
+      <FileName>BossOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBossFallAsleep">
+    <Position X="27.75" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAACAAAAAAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>BossOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateBossGlobal">
+    <Position X="25" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAQAAAAAAAAAAAAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>BossOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameDeveloperEntity">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iAABAAACCBggBQBQBgAIAAAAABAYAAQAAgEABIBEAAA=</HashCode>
+      <FileName>GameDevelopEmployee.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="mood" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StateGameDesigner">
+    <Position X="32.75" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAIACAAAAEAAA=</HashCode>
+      <FileName>GameDesignerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameDesignerDoWorking">
+    <Position X="39" Y="10.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACkAAAAAAA=</HashCode>
+      <FileName>GameDesignerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameDesignerFallAsleep">
+    <Position X="43" Y="10.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAQAAAAAAAAAAAAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameDesignerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameDesignerGlobal">
+    <Position X="46.75" Y="10.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameDesignerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameDesignerHired">
+    <Position X="50.5" Y="10.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEIAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameDesignerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameDesignerIdle">
+    <Position X="35.5" Y="10.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAQAAYACgAAAAAAA=</HashCode>
+      <FileName>GameDesignerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameGraphicArtist">
+    <Position X="32.5" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAIACAAAAEAAA=</HashCode>
+      <FileName>GameGraphicArtistOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameGraphicArtistDoWorking">
+    <Position X="42.75" Y="6.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAQAAAAAAAAAAAAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameGraphicArtistOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameGraphicArtistFallAsleep">
+    <Position X="47" Y="6.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACgAAQAAAA=</HashCode>
+      <FileName>GameGraphicArtistOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameGraphicArtistGlobal">
+    <Position X="51" Y="6.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameGraphicArtistOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameGraphicArtistHired">
+    <Position X="35.25" Y="6.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAACAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameGraphicArtistOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameGraphicArtistIdle">
+    <Position X="39" Y="6.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAQAAAAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameGraphicArtistOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameProgrammer">
+    <Position X="32.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAIACAAAAEAAA=</HashCode>
+      <FileName>GameProgrammerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameProgrammerDoWorking">
+    <Position X="46.75" Y="3.25" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameProgrammerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameProgrammerFallAsleep">
+    <Position X="51" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAQAAAAAAAAAAAAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameProgrammerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameProgrammerGlobal">
+    <Position X="35.5" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACgAAgAAAA=</HashCode>
+      <FileName>GameProgrammerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameProgrammerHired">
+    <Position X="39.25" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACgAAAEAAA=</HashCode>
+      <FileName>GameProgrammerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateGameProgrammerIdle">
+    <Position X="43" Y="3.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAYACgAAAAAAA=</HashCode>
+      <FileName>GameProgrammerOwnedStates.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Telegram">
+    <Position X="3.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAgAAgAAAEAIAAAAAAAAAAAAAAAAAAAABAQAAAAAAAA=</HashCode>
+      <FileName>Telegram.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="eLocationType">
+    <Position X="5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACEAgAAAAAAAAAAAAEAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Locations.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="message_type">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MessageTypes.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="__unnamed_enum_000a_1">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityNames.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="eDeveloperType">
+    <Position X="22" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>GameDevelopEmployee.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
